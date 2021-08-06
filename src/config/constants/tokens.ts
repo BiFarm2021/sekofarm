@@ -7,8 +7,8 @@ const tokens = {
     symbol: 'MATIC',
     projectLink: 'https://www.matic.network/',
   },
-  biyield: {
-    symbol: 'BiYield',
+  seko: {
+    symbol: 'SEKO',
     address: {
       137: '0x109bc337779f2fc39dc0353e49c563969d15a647',
       56: '0x109bc337779f2fc39dc0353e49c563969d15a647',
