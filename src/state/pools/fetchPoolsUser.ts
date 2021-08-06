@@ -110,7 +110,7 @@ export const fetchUserCanHarvests = async (account) => {
 export const fetchUserPendingRewards = async (account) => {
   const calls = masterPools.map((p) => ({
     address: getAddress(p.contractAddress),
-    name: 'pendingBiYield',
+    name: 'pendingSeko',
     params: [p.sousId, account],
   }))
   const res = await multicall(masterChefABI, calls)
