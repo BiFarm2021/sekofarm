@@ -92,17 +92,14 @@ const Home: React.FC = () => {
       </Hero>
       <Page>
         <div>
-          <TokenAddress />
+           <MyFarmInfo />
           <Cards>
             <FarmStakingCard />
-             <div>
-                <MyFarmInfo />
-                <EarnAPRCard />
-               <EarnAssetCard />
-             </div>
-          </Cards>
             
-            <MyStats />
+          </Cards>
+          <EarnAPRCard />
+          <EarnAssetCard />
+           
         </div>
       </Page>
     </div>
