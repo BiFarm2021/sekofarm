@@ -4,15 +4,15 @@ import { PoolConfig, PoolCategory } from './types'
 const pools: PoolConfig[] = [
   {
     sousId: 0,
-    stakingToken: tokens.biyield,
-    earningToken: tokens.biyield,
+    stakingToken: tokens.seko,
+    earningToken: tokens.seko,
     contractAddress: {
       56: '', 
       137: '',
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,
-    tokenPerBlock: '2',
+    tokenPerBlock: '0.005',
     sortOrder: 1,
     isFinished: false,
   },
@@ -27,7 +27,7 @@ const pools: PoolConfig[] = [
 //     },
 //     poolCategory: PoolCategory.COMMUNITY,
 //     harvest: true,
-//     tokenPerBlock: '0.2',
+//     tokenPerBlock: '0.000025',
 //     sortOrder: 1,
 //     isFinished: false,
 //   },
