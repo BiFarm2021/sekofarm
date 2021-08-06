@@ -52,14 +52,14 @@ const MyFarmInfo = () => {
           </Heading>
             
                 <CardMidContent color="#3366ff">
-                  #9832933
+                  #17743198
                 </CardMidContent>
                 <Flex justifyContent="space-between">
                   <Heading color="contrast" size="lg">
-                     Date: Aug 08 2021 02:28 GMT+07
+                     Date: Aug 08 2021 09:30 GMT+07
                   </Heading>
                 </Flex>
-              <StyledLinkExternal href="https://bscscan.com/block/countdown/9832933">
+              <StyledLinkExternal href="https://polygonscan.com/block/countdown/17743198">
                 Countdown
              </StyledLinkExternal>
         </CardBody>
