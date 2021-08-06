@@ -1,44 +1,44 @@
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'BiYield',
+  title: 'SekoFarm',
   description:
-    'BiYield is The First Multichain Yield Farming Platform With High APR incomes.',
+    'SekoFarm benefits from velociraptor fast and prehistorically cheap transaction capabilities on Polygon & BSC.',
   
 }
 
 export const customMeta: { [key: string]: PageMeta } = {
   '/': {
-    title: 'Home | BiYield',
+    title: 'Home | SekoFarm',
   },
   '/competition': {
-    title: 'Trading Battle | BiYield',
+    title: 'Trading Battle | SekoFarm',
   },
   '/prediction': {
-    title: 'Prediction | BiYield',
+    title: 'Prediction | SekoFarm',
   },
   '/farms': {
-    title: 'BiYield | Farms',
+    title: 'SekoFarms',
   },
   '/pools': {
-    title: 'BiYield | Pools',
+    title: 'SekoPools',
   },
   '/lottery': {
-    title: 'Lottery | BiYield',
+    title: 'Lottery | SekoFarm',
   },
   '/collectibles': {
-    title: 'Collectibles | BiYield',
+    title: 'Collectibles | SekoFarm',
   },
   '/ifo': {
-    title: 'Initial Farm Offering | BiYield',
+    title: 'Initial Farm Offering | SekoFarm',
   },
   '/teams': {
-    title: 'Leaderboard | BiYield',
+    title: 'Leaderboard | SekoFarm',
   },
   '/profile/tasks': {
-    title: 'Task Center | BiYield',
+    title: 'Task Center | SekoFarm',
   },
   '/profile': {
-    title: 'Your Profile | BiYield',
+    title: 'Your Profile | SekoFarm',
   },
 }
