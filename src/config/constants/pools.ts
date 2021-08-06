@@ -60,7 +60,7 @@ const pools: PoolConfig[] = [
     isFinished: false,
   },
   {
-    sousId: 10,
+    sousId: 13,
     stakingToken: tokens.eth,
     earningToken: tokens.seko,
     contractAddress: {
@@ -74,7 +74,7 @@ const pools: PoolConfig[] = [
     isFinished: false,
   },
   {
-    sousId: 11,
+    sousId: 10,
     stakingToken: tokens.busd,
     earningToken: tokens.seko,
     contractAddress: {
@@ -88,7 +88,7 @@ const pools: PoolConfig[] = [
     isFinished: false,
   },
   {
-    sousId: 12,
+    sousId: 11,
     stakingToken: tokens.usdt,
     earningToken: tokens.seko,
     contractAddress: {
