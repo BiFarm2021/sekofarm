@@ -55,11 +55,11 @@ const CakeStats = () => {
         </Row>
         <Row>
           <Text fontSize="14px">{t('New SEKO/block')}</Text>
-          <CardValue fontSize="14px" decimals={0} value={0.025} />
+          <Text fontSize="14px">{t('0.025')}</Text>
         </Row>
         <Row>
           <Text fontSize="14px">{t('Transfer Fee')}</Text>
-          <CardValue fontSize="14px" decimals={0} value={0.1} />
+          <Text fontSize="14px">{t('0.1%')}</Text>
         </Row>
         
        
