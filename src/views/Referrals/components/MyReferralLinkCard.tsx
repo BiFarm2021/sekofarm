@@ -11,7 +11,7 @@ const MyReferralLinkCard = () => {
   const { t } = useTranslation()
   const { account } = useWeb3React()
 
-  const domain = 'https://sekofarm.live/?ref='
+  const domain = 'https://poly.sekofarm.live/?ref='
   const referralLink = domain + account
   return (
     <StyledLotteryCard>
