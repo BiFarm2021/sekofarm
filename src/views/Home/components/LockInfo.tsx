@@ -24,7 +24,6 @@ const StyledFarmStakingCard = styled(Card)`
 `
 const StyledLinkExternal = styled(LinkExternal)`
   font-weight: 400;
-  margin-left: 50%;
 `
 
 const CardMidContent = styled(Heading).attrs({ size: 'xl' })`
@@ -59,8 +58,6 @@ const LockInfo = () => {
                      DeepLock
                   </Heading>
                 </Flex>
-              
-                Countdown
              </StyledLinkExternal>
         </CardBody>
       
