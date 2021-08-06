@@ -60,11 +60,11 @@ const FarmedStakingCard = () => {
         </Heading>
         <CardImage src="/images/logo250.png" alt="logo" width={64} height={64} />
         <Block>
-          <Label>{t('BiYield to Harvest')}:</Label>
+          <Label>{t('SEKO to Harvest')}:</Label>
           <CakeHarvestBalance />
         </Block>
         <Block>
-          <Label>{t('BiYield in Wallet')}:</Label>
+          <Label>{t('SEKO in Wallet')}:</Label>
           <CakeWalletBalance />
         </Block>
         <Actions>
@@ -76,7 +76,7 @@ const FarmedStakingCard = () => {
               width="100%"
             >
               {pendingTx
-                ? t('Collecting BiYield')
+                ? t('Collecting SEKO')
                 : t('Harvest all (%count%)', {
                     count: balancesWithValue.length,
                   })}
