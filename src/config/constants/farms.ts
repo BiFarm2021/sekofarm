@@ -65,6 +65,6 @@ const farms: FarmConfig[] = [
 //     token: tokens.eth,
 //     quoteToken: tokens.wbnb,
 //   },
-// ]
+ ]
 
 export default farms
