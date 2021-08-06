@@ -49,13 +49,13 @@ const MyFarmInfo = () => {
           <Heading color="contrast" size="lg">
             Farm Start at block
           </Heading>
-            <StyledLinkExternal href="https://bscscan.com/block/countdown/9898999">
-                <CardMidContent color="#7645d9">
-                  #9898999
+            <StyledLinkExternal href="https://bscscan.com/block/countdown/9820933">
+                <CardMidContent color="#3366ff">
+                  #9820933
                 </CardMidContent>
                 <Flex justifyContent="space-between">
                   <Heading color="contrast" size="lg">
-                     Date: Aug 10 2021 11:22 GMT+07
+                     Date: Aug 07 2021 16:08 GMT+07
                   </Heading>
                 </Flex>
              </StyledLinkExternal>
