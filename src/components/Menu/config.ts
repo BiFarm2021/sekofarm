@@ -10,7 +10,7 @@ const config: MenuEntry[] = [
   
   
   {
-    label: 'Dashboard',
+    label: 'Homepage',
     icon: 'HomeIcon',
     href: '/',
   },
@@ -82,16 +82,16 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Telegram Chat',
-        href: 'https://t.me/',
+        href: 'https://t.me/joinchat/YSuwNwKs6kowMmNl',
       },
       
       {
         label: 'Telegram Channel',
-        href: 'https://t.me/',
+        href: 'https://t.me/SekoFarm',
       },
       {
         label: 'Twitter',
-        href: 'https://twitter.com/',
+        href: 'https://twitter.com/SekoFarmLive',
       },
     ],
   },
