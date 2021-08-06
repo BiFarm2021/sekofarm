@@ -86,9 +86,9 @@ const Home: React.FC = () => {
     <div>
       <Hero>
        <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {t('BiYield.Farm')}
+          {t('SekoFarm')}
         </Heading>
-        <Text>{t('The First Multichain Yield Farming Platform With High APR incomes.')}</Text>
+        <Text>{t('The Best Way To Earn Passive Income on Binance Smart Chain (BSC) & Polygon (MATIC).')}</Text>
       </Hero>
       <Page>
         <div>
