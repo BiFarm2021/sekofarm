@@ -16,7 +16,7 @@ const farms: FarmConfig[] = [
     pid: 2,
     lpSymbol: 'SEKO-BUSD LP',
     lpAddresses: {
-      56: '',
+      56: '0xFEfEB231cb443e5DdB905B7cCD564a65b98d5E91',
       137: '',
     },
     token: tokens.seko,
