@@ -127,6 +127,18 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://www.paxos.com/busd/',
   },
+  
+   cake: {
+    symbol: 'CAKE',
+    address: {
+      137: '',
+      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+    },
+    decimals: 18,
+    projectLink: 'https://pancakeswap.finance/',
+  },
+  
+  
 }
 
 export default tokens
