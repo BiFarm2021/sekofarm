@@ -90,7 +90,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, account }
     : '-'
 
   const lpLabel = farm.lpSymbol && farm.lpSymbol.toUpperCase().replace('PANCAKE', '')
-  const earnLabel = farm.dual ? farm.dual.earnLabel : 'BiYield'
+  const earnLabel = farm.dual ? farm.dual.earnLabel : 'SEKO'
 
   const farmAPR = farm.apr && farm.apr.toLocaleString('en-US', { maximumFractionDigits: 2 })
   const depositFee = farm.depositFeeBP || 0
@@ -104,7 +104,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, account }
 
   return (
     <FCard>
-      {farm.token.symbol === 'BiYield' && <StyledCardAccent />}
+      {farm.token.symbol === 'SEKO' && <StyledCardAccent />}
       <CardHeading
         lpLabel={lpLabel}
         multiplier={farm.multiplier}
