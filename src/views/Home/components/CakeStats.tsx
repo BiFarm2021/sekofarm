@@ -39,26 +39,26 @@ const CakeStats = () => {
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {t('BIRDA States')}
+          {t('SEKO Stats')}
         </Heading>
          <Row>
-          <Text fontSize="14px">{t('Birda Price:')}</Text>
+          <Text fontSize="14px">{t('SEKO Price:')}</Text>
           {cakeSupply && <CardValue fontSize="14px" prefix="$"  value={busdBalance} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{t('Total BirdaBirda Supply')}</Text>
+          <Text fontSize="14px">{t('Total SEKO Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{t('Total Birda Burned')}</Text>
+          <Text fontSize="14px">{t('Total SEKO Burned')}</Text>
           <CardValue fontSize="14px" decimals={0} value={burnedBalance} />
         </Row>
         <Row>
-          <Text fontSize="14px">{t('New Birda/block')}</Text>
-          <CardValue fontSize="14px" decimals={0} value={5} />
+          <Text fontSize="14px">{t('New SEKO/block')}</Text>
+          <CardValue fontSize="14px" decimals={0} value={0.025} />
         </Row>
         <Row>
-          <Text fontSize="14px">{t('Transfer TAX')}</Text>
+          <Text fontSize="14px">{t('Transfer Fee')}</Text>
           <CardValue fontSize="14px" decimals={0} value={0.1} />
         </Row>
         
