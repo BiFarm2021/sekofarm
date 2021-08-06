@@ -16,7 +16,7 @@ const config: MenuEntry[] = [
   },
  {
     label: 'Exchange',
-    icon: 'NftIcon',
+    icon: 'TradeIcon',
     href: 'https://pancakeswap.finance/swap?outputCurrency=',
   },
    {
@@ -25,20 +25,20 @@ const config: MenuEntry[] = [
     href: 'https://pancakeswap.finance/add/BNB/',
   },
   {
-    label: 'BiFarms',
+    label: 'Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'BiPools',
+    label: 'Pools',
     icon: 'PoolIcon',
     href: '/pools',
   },
-//   {
-//     label: 'Referrals',
-//     icon: 'ReferralIcon',
-//     href: '/referrals',
-//   },
+  {
+    label: 'Referrals',
+    icon: 'ReferralIcon',
+    href: '/referrals',
+  },
  
   {
     label: 'Analytics',
@@ -51,35 +51,13 @@ const config: MenuEntry[] = [
       },
       {
         label: 'BscScan',
-        href: 'https://bscscan.com/token/0x109bc337779f2fc39dc0353e49c563969d15a647',
+        href: 'https://bscscan.com/token/',
       },
       
     ],
   },
 
- 
   {
-    label: 'Community',
-    icon: 'MoreIcon',
-    items: [
-      
-      {
-        label: 'Telegram Chat',
-        href: 'https://t.me/BiYieldChat',
-      },
-      
-      {
-        label: 'Telegram Channel',
-        href: 'https://t.me/BiYieldFarm',
-      },
-      {
-        label: 'Twitter',
-        href: 'https://twitter.com/BiYieldFarm',
-      },
-    ],
-  },
-  
-    {
     label: 'Security',
     icon: 'NftIcon',
     items: [
@@ -94,6 +72,31 @@ const config: MenuEntry[] = [
       
     ],
   },
+  {
+    label: 'More',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'Docs',
+        href: 'https://sekofarm.gitbook.io/sekofarm-live/',
+      },
+      {
+        label: 'Telegram Chat',
+        href: 'https://t.me/',
+      },
+      
+      {
+        label: 'Telegram Channel',
+        href: 'https://t.me/',
+      },
+      {
+        label: 'Twitter',
+        href: 'https://twitter.com/',
+      },
+    ],
+  },
+  
+   
 
   
   
