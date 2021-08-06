@@ -12,6 +12,7 @@ import WinCard from 'views/Home/components/WinCard'
 import MyStats from 'views/Home/components/MyStats'
 import MyFarmInfo from 'views/Home/components/MyFarmInfo'
 import TokenAddress from 'views/Home/components/TokenAddress'
+import MyTVL from 'views/Home/components/MyTVL'
 
 
 
@@ -99,7 +100,7 @@ const Home: React.FC = () => {
           </Cards>
           <EarnAPRCard />
           <EarnAssetCard />
-           
+          <MyTVL />
         </div>
       </Page>
     </div>
