@@ -7,7 +7,7 @@ const pools: PoolConfig[] = [
     stakingToken: tokens.seko,
     earningToken: tokens.seko,
     contractAddress: {
-      56: '', 
+      56: '0x833b967526e35dfb3a0a8c31f12881963e7983f8', 
       137: '',
     },
     poolCategory: PoolCategory.CORE,
@@ -18,11 +18,11 @@ const pools: PoolConfig[] = [
   },
   
 //    {
-//     sousId: 6,
+//     sousId: 7,
 //     stakingToken: tokens.wbnb,
 //     earningToken: tokens.biyield,
 //     contractAddress: {
-//       56: '',
+//       56: '0x833b967526e35dfb3a0a8c31f12881963e7983f8',
 //       137: '',
 //     },
 //     poolCategory: PoolCategory.COMMUNITY,
