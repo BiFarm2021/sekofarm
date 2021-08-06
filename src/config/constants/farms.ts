@@ -6,7 +6,7 @@ const farms: FarmConfig[] = [
     pid: 1,
     lpSymbol: 'SEKO-BNB LP',
     lpAddresses: {
-      56: '',
+      56: '0x8e7FCb9a44037568ce4752A1B9107D6AF12C1D33',
       137: '',
     },
     token: tokens.seko,
