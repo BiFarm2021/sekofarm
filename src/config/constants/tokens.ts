@@ -10,8 +10,8 @@ const tokens = {
   seko: {
     symbol: 'SEKO',
     address: {
-      137: '',
-      56: '',
+      137: '0x8e71c4b127b3e07918add7641c53036d00e31546',
+      56: '0x8e71c4b127b3e07918add7641c53036d00e31546',
     },
     decimals: 18,
     projectLink: 'https://sekofarm.live',
