@@ -10,11 +10,11 @@ const tokens = {
   seko: {
     symbol: 'SEKO',
     address: {
-      137: '0x109bc337779f2fc39dc0353e49c563969d15a647',
-      56: '0x109bc337779f2fc39dc0353e49c563969d15a647',
+      137: '',
+      56: '',
     },
     decimals: 18,
-    projectLink: 'https://biyield.farm',
+    projectLink: 'https://sekofarm.live',
   },
   wmatic: {
     symbol: 'WMATIC',
