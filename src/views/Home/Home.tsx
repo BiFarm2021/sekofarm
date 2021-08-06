@@ -13,7 +13,7 @@ import MyStats from 'views/Home/components/MyStats'
 import MyFarmInfo from 'views/Home/components/MyFarmInfo'
 import TokenAddress from 'views/Home/components/TokenAddress'
 import MyTVL from 'views/Home/components/MyTVL'
-
+import LockInfo from 'views/Home/components/LockInfo'
 
 
 
