@@ -17,12 +17,12 @@ const config: MenuEntry[] = [
  {
     label: 'Exchange',
     icon: 'TradeIcon',
-    href: 'https://pancakeswap.finance/swap?outputCurrency=',
+    href: 'https://pancakeswap.finance/swap?outputCurrency=0x8e71c4b127b3e07918add7641c53036d00e31546',
   },
    {
     label: 'Liquidity',
     icon: 'SupplyChainIcon',
-    href: 'https://pancakeswap.finance/add/BNB/',
+    href: 'https://pancakeswap.finance/add/BNB/0x8e71c4b127b3e07918add7641c53036d00e31546',
   },
   {
     label: 'Farms',
@@ -47,11 +47,11 @@ const config: MenuEntry[] = [
       
       {
         label: 'Poocoin',
-        href: 'https://poocoin.app/tokens/',
+        href: 'https://poocoin.app/tokens/0x8e71c4b127b3e07918add7641c53036d00e31546',
       },
       {
         label: 'BscScan',
-        href: 'https://bscscan.com/token/',
+        href: 'https://bscscan.com/token/0x8e71c4b127b3e07918add7641c53036d00e31546',
       },
       
     ],
