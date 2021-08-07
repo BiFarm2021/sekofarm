@@ -2,11 +2,11 @@ import { MenuEntry } from '@becoswap-libs/uikit'
 
 const config: MenuEntry[] = [
   
-//   {
-//     label: 'BIRDA Polygon',
-//     icon: 'ChainIcon',
-//     href: 'https://poly.birda.farm',
-//   },
+  {
+    label: 'Polygon',
+    icon: 'ChainIcon',
+    href: 'https://poly.sekofarm.live/',
+  },
   
   
   {
@@ -63,7 +63,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Review by RugDoc',
-        href: 'https://rugdoc.io/project/',
+        href: 'https://rugdoc.io/project/zekofarm/',
       },
      {
         label: 'Audits',
