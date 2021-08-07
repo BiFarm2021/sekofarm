@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { PriceApiResponse, PriceApiThunk, PriceState } from 'state/types'
 import tokens from 'config/constants/tokens'
