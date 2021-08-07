@@ -14,13 +14,13 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 2,
-    lpSymbol: 'SEKO-USDT LP',
+    lpSymbol: 'WETH-MATIC LP',
     lpAddresses: {
       56: '',
-      137: '',
+      137: '0xadbf1854e5883eb8aa7baf50705338739e558e5b',
     },
-    token: tokens.seko,
-    quoteToken: tokens.usdt,
+    token: tokens.weth,
+    quoteToken: tokens.wmatic,
   },
  
   {
