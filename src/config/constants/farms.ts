@@ -30,8 +30,8 @@ const farms: FarmConfig[] = [
       56: '0x58f876857a02d6762e0101bb5c46a8c1ed44dc16', // WBNB-BUSD
       137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827', // WMATIC-USDC
     },
-    token: tokens.busd,
-    quoteToken: tokens.wbnb,
+    token: tokens.usdc,
+    quoteToken: tokens.wmatic,
   },
 //   {
 //     pid: 12,
