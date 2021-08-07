@@ -8,7 +8,7 @@ const pools: PoolConfig[] = [
     earningToken: tokens.seko,
     contractAddress: {
       56: '0x833b967526e35dfb3a0a8c31f12881963e7983f8', 
-      137: '',
+      137: '0xc664d756899fceAc63213b07ceb3dE6024175843',
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,
