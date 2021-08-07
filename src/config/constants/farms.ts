@@ -7,7 +7,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'SEKO-MATIC LP',
     lpAddresses: {
       56: '',
-      137: '',
+      137: '0xD10F905EF4dd4355768fACEE04430D015DB93888',
     },
     token: tokens.seko,
     quoteToken: tokens.wmatic,
