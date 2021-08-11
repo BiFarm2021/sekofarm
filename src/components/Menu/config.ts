@@ -2,11 +2,11 @@ import { MenuEntry } from '@becoswap-libs/uikit'
 
 const config: MenuEntry[] = [
   
-  {
-    label: 'Polygon',
-    icon: 'ChainIcon',
-    href: 'https://poly.sekofarm.live/',
-  },
+//   {
+//     label: 'Polygon',
+//     icon: 'ChainIcon',
+//     href: 'https://poly.sekofarm.live/',
+//   },
   
   
   {
